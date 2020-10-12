@@ -1,0 +1,41 @@
+﻿生成启动时间为 2020/10/12 星期一 13:57:31。
+     1>项目“E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Hello2\Hello2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Hello2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\VS2010\VC\bin\CL.exe /c /AI"D:\Program Files\Autodesk\AutoCAD 2014\\" /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D HELLO2_MODULE /D _ACRXAPP /D _WINDLL /D _UNICODE /D UNICODE /GF- /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"StdAfx.h" /Fp"Win32\Hello2.pch" /Fo"Win32\\" /Fd"Win32\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         D:\VS2010\VC\bin\CL.exe /c /AI"D:\Program Files\Autodesk\AutoCAD 2014\\" /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D HELLO2_MODULE /D _ACRXAPP /D _WINDLL /D _UNICODE /D UNICODE /GF- /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"StdAfx.h" /Fp"Win32\Hello2.pch" /Fo"Win32\\" /Fd"Win32\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt acrxEntryPoint.cpp DocData.cpp Hello2.cpp
+         Hello2.cpp
+         DocData.cpp
+         acrxEntryPoint.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /IWin32\ /nologo /fo"Win32\Hello2.res" Hello2.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Hello2.arx.embed.manifest.res" Win32\Hello2_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\Hello2.arx) 与 Linker 的 OutputFile 属性值(E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\zd_Hello2.arx)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Hello2) 与 Linker 的 OutputFile 属性值(zd_Hello2)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         D:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\zd_Hello2.arx" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Hello2.arx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\/Hello2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\/Hello2.lib" /MACHINE:X86 /DLL Win32\Hello2.res
+         Win32\Hello2.arx.embed.manifest.res
+         Win32\acrxEntryPoint.obj
+         Win32\DocData.obj
+         Win32\Hello2.obj
+         Win32\StdAfx.obj
+            正在创建库 E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\/Hello2.lib 和对象 E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\/Hello2.exp
+     1>rxapi.lib(libinit.obj) : warning LNK4099: 未找到 PDB“rxapi_cl.pdb”(使用“rxapi.lib(libinit.obj)”或在“E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\rxapi_cl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Hello2.arx.embed.manifest" /manifest Win32\Hello2.arx.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Hello2.vcxproj -> E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Win32\Hello2.arx
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Hello2.unsuccessfulbuild”。
+         正在对“Win32\Hello2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Code\ObjectArx_VC\ch01_Hello_World\Hello2\Hello2\Hello2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.45

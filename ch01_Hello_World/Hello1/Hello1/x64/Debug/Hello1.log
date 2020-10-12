@@ -1,0 +1,35 @@
+﻿生成启动时间为 2020/10/12 星期一 13:57:13。
+     1>项目“E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\Hello1\Hello1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“x64\Debug\Hello1.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\VS2010\VC\bin\x86_amd64\CL.exe /c /I"E:\Autodesk\ObjectARX\Autodesk_ObjectARX_2014_Win_64_and_32Bit\inc-x64" /IE:\Autodesk\ObjectARX\Autodesk_ObjectARX_2014_Win_64_and_32Bit\inc /Zi /nologo /W1 /WX- /Od /D WIN32 /D _WINDOWS /D _USRDLL /D HELLO1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         所有输出均为最新。
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\Hello1.arx.embed.manifest.res" x64\Debug\Hello1_manifest.rc 
+       Link:
+         D:\VS2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\Hello1.arx" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Autodesk\ObjectARX\Autodesk_ObjectARX_2014_Win_64_and_32Bit\lib-x64" rxapi.lib acdb19.lib acge19.lib acad.lib ac1st19.lib accore.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Hello.def" /MANIFEST /ManifestFile:"x64\Debug\Hello1.arx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\Hello1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\Hello1.lib" /MACHINE:X64 /DLL x64\Debug\Hello1.arx.embed.manifest.res
+         x64\Debug\dllmain.obj
+         x64\Debug\Hello1.obj
+         x64\Debug\stdafx.obj
+     1>Hello.def(2): warning LNK4017: DESCRIPTION 语句不支持目标平台；已忽略
+            正在创建库 E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\Hello1.lib 和对象 E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\Hello1.exp
+     1>Hello1.exp : warning LNK4070: .EXP 中的 /OUT:Hello1.dll 指令与输出文件名“E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\Hello1.arx”不同；忽略指令
+     1>rxapi.lib(libinit.obj) : warning LNK4099: 未找到 PDB“rxapi_cl.pdb”(使用“rxapi.lib(libinit.obj)”或在“E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\rxapi_cl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Hello1.vcxproj -> E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\Hello1.arx
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\Hello1.arx.embed.manifest" /manifest x64\Debug\Hello1.arx.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Hello1.vcxproj -> E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\x64\Debug\Hello1.arx
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\Hello1.unsuccessfulbuild”。
+         正在对“x64\Debug\Hello1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Code\ObjectArx_VC\ch01_Hello_World\Hello1\Hello1\Hello1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.46

@@ -1,0 +1,6 @@
+LIBRARY Hello1
+DESCRIPTION "First ARX Application."
+
+EXPORTS
+acrxEntryPoint PRIVATE
+acrxGetApiVersion PRIVATE
